@@ -1,0 +1,27 @@
+#language-switch > summary {
+  list-style: none;
+  cursor: pointer;
+}
+#language-switch {
+  -webkit-app-region: no-drag;
+  margin-right: 5px;
+  position: relative;
+}
+#language-switch span {
+  border-radius: 8px;
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  background-color: var(--foreground-color);
+  max-height: 104px;
+  overflow-y: scroll;
+}
+#language-switch span p {
+  -webkit-app-region: no-drag;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px 0;
+}
+#language-switch span p:hover {
+  background-color: var(--hover-color);
+}
